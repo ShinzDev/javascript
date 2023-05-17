@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+
+    <div id="cart">
+        <div class="item">
+          <div class="item-name">Item 1</div>
+          <div class="item-quantity">Quantity: <span id="quantity-1">1</span></div>
+          <button class="quantity-btn" onclick="changeQuantity(1, -1)">-</button>
+          <button class="quantity-btn" onclick="changeQuantity(1, 1)">+</button>
+          <button class="delete-btn" onclick="deleteItem(1)">Delete</button>
+          <button class="like-btn" onclick="toggleLike(1)">❤</button>
+        </div>
+        <div class="item">
+          <div class="item-name">Item 2</div>
+          <div class="item-quantity">Quantity: <span id="quantity-2">2</span></div>
+          <button class="quantity-btn" onclick="changeQuantity(2, -1)">-</button>
+          <button class="quantity-btn" onclick="changeQuantity(2, 1)">+</button>
+          <button class="delete-btn" onclick="deleteItem(2)">Delete</button>
+          <button class="like-btn" onclick="toggleLike(2)">❤</button>
+        </div>
+        <div id="total">Total: $<span id="total-price">0</span></div>
+      </div>
+      
+
+    <script src="java.js"></script>
+</body>
+</html>

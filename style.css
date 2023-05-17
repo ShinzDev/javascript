@@ -1,0 +1,17 @@
+.item {
+    margin-bottom: 10px;
+  }
+  
+  .quantity-btn, .delete-btn, .like-btn {
+    margin-left: 5px;
+  }
+  
+  .like-btn {
+    color: red;
+  }
+  
+  #total {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
